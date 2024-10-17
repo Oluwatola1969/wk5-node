@@ -1,0 +1,17 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "Node app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --env-file=.env index.js"
+  },
+  "author": "Oluwatola",
+  "license": "MIT",
+  "dependencies": {
+    "D": "^1.0.0",
+    "nodemon": "^3.1.7"
+  }
+}
